@@ -265,16 +265,11 @@ section.download h3 {
   margin-top: 0;
   font-size: 30px;
 }
-section.download .badges .badge-link {
-  display: block;
-  margin-bottom: 25px;
+section.download .badges h1 {
+  font-weight: 700;
+  font-size: 30px;
 }
-section.download .badges .badge-link:last-child {
-  margin-bottom: 0;
-}
-section.download .badges .badge-link img {
-  height: 60px;
-}
+
 @media (min-width: 768px) {
   section.download .badges .badge-link {
     display: inline-block;
@@ -297,6 +292,9 @@ section.features .section-heading h2 {
 }
 section.features .section-heading p {
   margin-bottom: 0;
+}
+section.features .device-container .device .screen {
+  padding: 70px 0 50px 0;
 }
 section.features .device-container,
 section.features .feature-item {
